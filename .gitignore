@@ -1,8 +1,12 @@
 [Mm]elissa[Uu]pdater/
 
 mdRightFielder.dll
+libmdRightFielder.so
 
 *.h
 *.lib
 *.obj
 *.hash
+*.zip
+*.class
+*.jar
