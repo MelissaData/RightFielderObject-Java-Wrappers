@@ -15,7 +15,7 @@ class FileConfig {
 
 ######################### Config ###########################
 
-$RELEASE_VERSION = '2024.01'
+$RELEASE_VERSION = '2024.02'
 
 $CurrentPath = $PSScriptRoot
 $CmdPath = "C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\Build\vcvarsall.bat" # Configure the path to vcvarsall.bat if needed
@@ -51,6 +51,14 @@ $Files = @(
     OS             = "WINDOWS";
     Compiler       = "C";
     Architecture   = "64BIT";
+    Type           = "INTERFACE";
+  },
+  [FileConfig]@{
+    FileName       = "mdRightFielderJavaWrapper.cpp";
+    ReleaseVersion = $RELEASE_VERSION;
+    OS             = "ANY";
+    Compiler       = "JAVA";
+    Architecture   = "ANY";
     Type           = "INTERFACE";
   },
   [FileConfig]@{
