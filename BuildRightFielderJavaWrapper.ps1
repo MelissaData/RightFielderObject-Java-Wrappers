@@ -15,7 +15,7 @@ class FileConfig {
 
 ######################### Config ###########################
 
-$RELEASE_VERSION = '2024.Q1'
+$RELEASE_VERSION = '2024.Q2'
 
 $CurrentPath = $PSScriptRoot
 $CmdPath = "C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\Build\vcvarsall.bat" # Configure the path to vcvarsall.bat if needed
@@ -65,9 +65,9 @@ $Files = @(
     FileName       = "mdRightFielder_JavaCode.zip";
     ReleaseVersion = $RELEASE_VERSION;
     OS             = "ANY";
-    Compiler       = "ANY";
+    Compiler       = "JAVA";
     Architecture   = "ANY";
-    Type           = "DATA";
+    Type           = "INTERFACE";
   }
 )
 

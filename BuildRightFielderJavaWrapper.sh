@@ -14,7 +14,7 @@ while [ $# -gt 0 ] ; do
 done
 
 ########################## Config ###########################
-RELEASE_VERSION='2024.Q1'
+RELEASE_VERSION='2024.Q2'
 
 ProjectPath=$(pwd)
 
@@ -25,7 +25,7 @@ JavaIncludeDirectory2="/usr/lib/jvm/java-11-openjdk-amd64/include/linux"
 Config_FileName1="libmdRightFielder.so"
 Config_ReleaseVersion1=$RELEASE_VERSION
 Config_OS1="LINUX"
-Config_Compiler1="GCC41"
+Config_Compiler1="GCC48"
 Config_Architecture1="64BIT"
 Config_Type1="BINARY"
 
@@ -53,9 +53,9 @@ Config_Type4="INTERFACE"
 Com_FileName="mdRightFielder_JavaCode.zip"
 Com_ReleaseVersion=$RELEASE_VERSION
 Com_OS="ANY"
-Com_Compiler="ANY"
+Com_Compiler="JAVA"
 Com_Architecture="ANY"
-Com_Type="DATA"
+Com_Type="INTERFACE"
 
 ######################### Functions #########################
 DownloadFiles() 
