@@ -12,7 +12,7 @@ For further details, please visit: https://wiki.melissadata.com/images/7/79/DQT_
 ## Tested Environments
 - Windows 10 64-bit Java 19, Microsoft Visual C++ 19.34, Powershell 5.1
 - Ubuntu Linux 20.04.04 LTS 64-bit Java 20, gcc 9.4.0 
-- Melissa Right Fielder Object for 2024-Q3
+- Melissa Right Fielder Object for 2024-Q4
 - Wrapper file(s) have not changed since 2024-Q2
 
 ## Getting Started
@@ -20,8 +20,8 @@ These instructions will get you a copy of the wrappers needed to run the Java Ri
 
 ### Download this project
 ```
-$ git clone https://github.com/MelissaData/RightFielderObject-Java-Wrappers
-$ cd RightFielderObject-Java-Wrappers
+git clone https://github.com/MelissaData/RightFielderObject-Java-Wrappers
+cd RightFielderObject-Java-Wrappers
 ```
 
 ### Copy wrappers to your project folder
@@ -79,8 +79,8 @@ Parameter(s)
 - -license (optional): a license string to run the powershell script
 
 ```
-$ .\BuildRightFielderJavaWrapper.ps1
-$ .\BuildRightFielderJavaWrapper.ps1 -license "<your_license_string>"
+.\BuildRightFielderJavaWrapper.ps1
+.\BuildRightFielderJavaWrapper.ps1 -license "<your_license_string>"
 ```
 
 ## Linux
@@ -148,8 +148,8 @@ Parameter(s)
 - --license (optional): a license string to run the bash script
 
 ```
-$ ./BuildRightFielderJavaWrapper.sh
-$ ./BuildRightFielderJavaWrapper.sh --license "<your_license_string>"
+./BuildRightFielderJavaWrapper.sh
+./BuildRightFielderJavaWrapper.sh --license "<your_license_string>"
 ```
 
 ----------------------------------------

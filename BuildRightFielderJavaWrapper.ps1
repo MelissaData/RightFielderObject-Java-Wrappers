@@ -15,7 +15,7 @@ class FileConfig {
 
 ######################### Config ###########################
 
-$RELEASE_VERSION = '2024.Q3'
+$RELEASE_VERSION = '2024.Q4'
 
 $CurrentPath = $PSScriptRoot
 $CmdPath = "C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\Build\vcvarsall.bat" # Configure the path to vcvarsall.bat if needed
