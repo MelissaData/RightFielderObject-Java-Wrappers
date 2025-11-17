@@ -14,7 +14,7 @@ while [ $# -gt 0 ] ; do
 done
 
 ########################## Config ###########################
-RELEASE_VERSION='2025.Q3'
+RELEASE_VERSION='2025.Q4'
 
 ProjectPath=$(pwd)
 
