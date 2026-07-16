@@ -20,8 +20,8 @@ These instructions will get you a copy of the wrappers needed to run the Java Ri
 
 ### Download this project
 ```
-git clone https://git.melissadata.com/dtgroup/melissadataobjectexamples/java/melissarightfielderobjectjavawrappers.git
-cd melissarightfielderobjectjavawrappers
+git clone https://github.com/MelissaData/RightFielderObject-Java-Wrappers
+cd RightFielderObject-Java-Wrappers
 ```
 
 ### Copy wrappers to your project folder
